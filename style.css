@@ -1,0 +1,24 @@
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.btnStyle {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 74px;
+  font-weight: bold;
+  line-height: 64px;
+  height: 84px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 84px;
+}
+
+.btnStyle:focus {
+  outline: none;
+}
